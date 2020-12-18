@@ -1,25 +1,44 @@
-.mama {
-    background-color: goldenrod;
-    height: 1000px;
+    body {
+        background-image: url(./img/depositphotos_32883849-stock-illustration-weather-background.jpg);
+    }
+    .mama {
+    
+    height: 700px;
     display: flex;
-    justify-content: space-around;
     align-items: center;
+    
+}
+.block {
+    height: 350px;
+    display: flex;
+    
+
 }
 .p {
     width: 150px;
     height: 80px;
-    background-color: rgb(105, 163, 240);
+    background-color: rgb(194, 213, 238);
     border-radius: 20%;
     overflow: hidden;
     transition: all 0.8s;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 10px;
+    
+
+    
 }
 .text {
     text-align: center;
 }
 .F {
-    margin-bottom: 500px ;
-    height: 300px;
-    width: 300px;
+    margin-bottom: 200px ;
+    position: static;
+    height: 400px;
+    width: 400px;
+    display: block;
+    
+    
 }
 .p:hover {
     width: 300px;
@@ -35,11 +54,29 @@ li {
     padding-bottom: 20px ;
 }
 .F1 {
-    height: 70px;
+    height: 80px;
     width: auto;
     
 }
-h1{
-    background-color: orange;
+.F2 {
+    height: 100px;
+    width: 100px;
     
+}
+
+    
+
+.pogoda{
+    width: auto;
+    height: 40px;
+    background: rgb(174,237,238);
+    background: radial-gradient(circle, rgba(174,237,238,1) 0%, rgba(148,187,233,1) 100%);
+    text-align: center;
+}
+.z{
+    background-color: lightblue;
+    height: 50px;
+    width: 200px;
+    border-radius: 15px;
+    text-align: center;
 }
